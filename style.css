@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: none;
+}
+
+.slider {
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.inner {
+    white-space: nowrap;
+}
+
+.arrow {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 40%;
+    background-color: gray;
+    border: 5px solid silver;
+    border-radius: 40px;
+    font-size: 20px;
+    color: silver;
+}
+
+.arrow.left {
+    left: -120px;
+}
+
+.arrow.right {
+    right: -120px;
+}
+
+.active {
+    display: inline-block;
+}
+
